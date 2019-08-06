@@ -30,31 +30,26 @@ function myParse(string) {
         result = operand1 * operand2;
         arr.splice(index - 1, 3);
         arr.splice(index - 1, 0, result);
-        // console.log(arr);
         break;
       case '/':
         result = operand1 / operand2;
         arr.splice(index - 1, 3);
         arr.splice(index - 1, 0, result);
-        // console.log(arr);
         break;
       case '+':
         result = operand1 + operand2;
         arr.splice(index - 1, 3);
         arr.splice(index - 1, 0, result);
-        // console.log(arr);
         break;
       case '-':
         result = operand1 - operand2;
         arr.splice(index - 1, 3);
         arr.splice(index - 1, 0, result);
-        // console.log(arr);
         break;
       case '%':
         result = operand1 % operand2;
         arr.splice(index - 1, 3);
         arr.splice(index - 1, 0, result);
-        // console.log(arr);
         break;
     }
   }
